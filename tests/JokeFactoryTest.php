@@ -5,10 +5,6 @@ namespace Bagwaa\ReallyFunnyJokes\Tests;
 use Bagwaa\ReallyFunnyJokes\JokeFactory;
 use PHPUnit\Framework\TestCase;
 
-/**
- * @internal
- * @coversNothing
- */
 class JokeFactoryTest extends TestCase
 {
     /** @test */

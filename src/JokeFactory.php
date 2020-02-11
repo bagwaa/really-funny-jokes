@@ -5,7 +5,7 @@ namespace Bagwaa\ReallyFunnyJokes;
 class JokeFactory
 {
     /**
-     * A silo of brilliant jokes, non are stale here
+     * A silo of brilliant jokes, non are stale here.
      *
      * @var array
      */
@@ -31,8 +31,10 @@ class JokeFactory
 
     /**
      * Return a random joke to the caller.
+     *
+     * @return string
      */
-    public function getRandomJoke(): string
+    public function getRandomJoke() : string
     {
         return $this->jokes[array_rand($this->jokes)];
     }

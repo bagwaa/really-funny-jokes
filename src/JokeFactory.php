@@ -5,7 +5,7 @@ namespace Bagwaa\ReallyFunnyJokes;
 class JokeFactory
 {
     /**
-     * A silo of brilliant jokes, non are stale here
+     * A silo of brilliant jokes, non are stale here.
      *
      * @var array
      */

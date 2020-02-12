@@ -7,7 +7,7 @@ class JokeFactory
     /**
      * A silo of brilliant jokes, non are stale here.
      *
-     * @var array
+     * @var array<string>
      */
     protected $jokes = [
         'The First rule of Chuck Norris is: you do not talk about Chuck Norris.',
@@ -20,7 +20,7 @@ class JokeFactory
     /**
      * JokeFactory - The Madness Starts Here!
      *
-     * @param array $jokes
+     * @param array<string> $jokes
      */
     public function __construct(array $jokes = null)
     {

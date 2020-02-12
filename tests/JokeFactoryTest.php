@@ -8,7 +8,7 @@ use PHPUnit\Framework\TestCase;
 class JokeFactoryTest extends TestCase
 {
     /** @test */
-    public function itReturnsARandomJoke() : void
+    public function itReturnsARandomJoke(): void
     {
         $jokes = new JokeFactory([
             'This is a joke',
@@ -19,7 +19,7 @@ class JokeFactoryTest extends TestCase
     }
 
     /** @test */
-    public function itReturnsAPredefinedJoke() : void
+    public function itReturnsAPredefinedJoke(): void
     {
         $jokes = [
             'The First rule of Chuck Norris is: you do not talk about Chuck Norris.',
